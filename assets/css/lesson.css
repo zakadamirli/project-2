@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+
+:root {
+  --blue: #1e90ff;
+  --white: #ffffff;
+}
+
+.memmefd {
+  color: var(--blue);
+}
+
+.banner {
+  background-image: url('../tools/background.jpeg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+
+}
+
+ .header {
+  padding-left: 0px; 
+      padding-right: 0px;
+      padding-top: 0px;
+       padding-bottom: 0px;   
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+} 
+
+.header.logos img {
+  height: 20px;
+}
+
+.header .navigation a {
+  color: white;
+  text-decoration: none;
+  margin-left: 10px;
+  padding: 0 0 5px 0;
+}
+.header .navigation a.current{
+border-width: 2px;
+border-color:white;
+border-bottom: 1px solid ;
+
+}
